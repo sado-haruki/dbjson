@@ -20,27 +20,33 @@
                   "column": [
                     {
                       "seatName": "1",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 1
                     },
                     {
                       "seatName": "2",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 1
                     },
                     {
                       "seatName": "3",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 2
                     },
                     {
                       "seatName": "4",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 2
                     },
                     {
                       "seatName": "5",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 3
                     },
                     {
                       "seatName": "6",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 3
                     }
                   ]
                 },
@@ -49,27 +55,33 @@
                   "column": [
                     {
                       "seatName": "1",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 1
                     },
                     {
                       "seatName": "2",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 1
                     },
                     {
                       "seatName": "3",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 2
                     },
                     {
                       "seatName": "4",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 2
                     },
                     {
                       "seatName": "5",
-                      "reserved": true
+                      "reserved": false,
+                      "zoneId": 3
                     },
                     {
                       "seatName": "6",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 3
                     }
                   ]
                 },
@@ -78,27 +90,33 @@
                   "column": [
                     {
                       "seatName": "1",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 4
                     },
                     {
                       "seatName": "2",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 4
                     },
                     {
                       "seatName": "3",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 5
                     },
                     {
                       "seatName": "4",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 5
                     },
                     {
                       "seatName": "5",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 6
                     },
                     {
                       "seatName": "6",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 6
                     }
                   ]
                 },
@@ -107,27 +125,33 @@
                   "column": [
                     {
                       "seatName": "1",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 4
                     },
                     {
                       "seatName": "2",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 4
                     },
                     {
                       "seatName": "3",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 5
                     },
                     {
                       "seatName": "4",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 5
                     },
                     {
                       "seatName": "5",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 6
                     },
                     {
                       "seatName": "6",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 6
                     }
                   ]
                 },
@@ -136,27 +160,33 @@
                   "column": [
                     {
                       "seatName": "1",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 7
                     },
                     {
                       "seatName": "2",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 7
                     },
                     {
                       "seatName": "3",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 8
                     },
                     {
                       "seatName": "4",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 8
                     },
                     {
                       "seatName": "5",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 9
                     },
                     {
                       "seatName": "6",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 9
                     }
                   ]
                 },
@@ -165,27 +195,33 @@
                   "column": [
                     {
                       "seatName": "1",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 7
                     },
                     {
                       "seatName": "2",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 7
                     },
                     {
                       "seatName": "3",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 8
                     },
                     {
                       "seatName": "4",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 8
                     },
                     {
                       "seatName": "5",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 9
                     },
                     {
                       "seatName": "6",
-                      "reserved": false
+                      "reserved": false,
+                      "zoneId": 9
                     }
                   ]
                 }
@@ -194,6 +230,54 @@
           ]
         }
       ]
+    }
+  ],
+  "zone": [
+    {
+      "id": 1,
+      "name": "前方・左側"
+    },
+    {
+      "id": 2,
+      "name": "前方・中央"
+    },
+    {
+      "id": 3,
+      "name": "前方・右側"
+    },
+    {
+      "id": 4,
+      "name": "中央・左側"
+    },
+    {
+      "id": 5,
+      "name": "中央・中央"
+    },
+    {
+      "id": 6,
+      "name": "中央・右側"
+    },
+    {
+      "id": 7,
+      "name": "後方・左側"
+    },
+    {
+      "id": 8,
+      "name": "後方・中央"
+    },
+    {
+      "id": 9,
+      "name": "後方・右側"
+    }
+  ],
+  "area": [
+    {
+      "id": 1,
+      "name": "横浜"
+    },
+    {
+      "id": 2,
+      "name": "みなとみらい"
     }
   ]
 }
